@@ -224,21 +224,21 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 {{< era-game eraMahjong >}}
 
-> 本作由 lackbfun ~~挖坑~~，详见《<a href="/era/era-mahjong-development" target="_blank">era 麻雀 开发日志</a>》。\
+> 本作由 lackbfun ~~挖坑~~，详见《[era 麻雀 开发日志](https://lackb.fun/era/era-mahjong-development)》。\
 > **半成品警告。**
 
 目前进度：可以正常循环摸切。\
 接下来的目标：渲染整张牌桌，包括——
 
-- [ ] 对局信息（场风 / 第几局 / 各家点数 / 余牌数 / 宝牌 / 本场数 / 立直数）
-- [ ] 牌河（舍张记录）
-- [ ] 鸣牌 / 和牌按钮
+- [ ] 对局信息（~~场风~~ / 第几局 / 各家点数 / ~~余牌数~~ / 宝牌 / 本场数 / 立直数）
+- [x] ~~牌河（舍张记录）~~
+- [x] ~~鸣牌 / 和牌按钮~~
 
 ## eraCOG（首发中文）
 
 {{< era-game eraCOG >}}
 
-> 本作由 lackbfun ~~挖坑~~，详见《<a href="/era/era-roguelike-development" target="_blank">eraCOG 开发日志</a>》。\
+> 本作由 lackbfun ~~挖坑~~，详见《[eraCOG 开发日志](https://lackb.fun/era/era-roguelike-development)》。\
 > **草创作品警告，请慎重选择是否试玩。**\
 > 你可能会遭遇包括但不限于<span style="color: red;">玩法重做、设定重做、数值重做、存档丢失</span>的种种状况。
 
