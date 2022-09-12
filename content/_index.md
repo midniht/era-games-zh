@@ -35,7 +35,7 @@
 
 ## 征集投稿
 
-[![](https://img.shields.io/badge/GitHub-1ackbfun%2Fera--games--zh-informational?logo=github)](https://github.com/1ackbfun/era-games-zh) ![](https://img.shields.io/github/commit-activity/m/1ackbfun/era-games-zh/main?label=发布频率) ![](https://img.shields.io/github/last-commit/1ackbfun/era-games-zh/dist?label=上次更新) ![](https://img.shields.io/github/workflow/status/1ackbfun/era-games-zh/build-dist/dist)
+[![](https://img.shields.io/badge/GitHub-1ackbfun%2Fera--games--zh-informational?logo=github)](https://github.com/1ackbfun/era-games-zh) ![](https://img.shields.io/github/workflow/status/1ackbfun/era-games-zh/build-dist/main) ![](https://img.shields.io/github/commit-activity/m/1ackbfun/era-games-zh/main?label=发布频率) ![](https://img.shields.io/github/last-commit/1ackbfun/era-games-zh/dist?label=上次更新)
 
 本站使用 [Hugo](https://github.com/gohugoio/hugo) 静态生成，完全开源，欢迎贡献。
 
