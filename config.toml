@@ -22,8 +22,8 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
-  blog = "/:slugorfilename/"
-  tags = "/blog/:slug"
+  blog = "/blog/:slugorfilename/"
+  tags = "/tags/:slug"
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
