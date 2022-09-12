@@ -1,0 +1,10 @@
+{{- $format := .Get 0 | default "YY-mm-dd HH:MM:SS" -}}
+{{- $format = replace $format "YY" "2006" -}}
+{{- $format = replace $format "mm" "01" -}}
+{{- $format = replace $format "dd" "02" -}}
+{{- $format = replace $format "ww" "Monday" -}}
+{{- $format = replace $format "HH" "15" -}}
+{{- $format = replace $format "MM" "04" -}}
+{{- $format = replace $format "SS" "05" -}}
+{{- $format = replace $format "timezone" "MST" -}}
+{{- dateFormat $format (time now "Asia/Shanghai") -}}

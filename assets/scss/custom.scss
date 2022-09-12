@@ -1,0 +1,17 @@
+@import "modify/font.scss"; // 字体
+@import "modify/scrollbar.scss"; // 滚动条
+@import "shortcode/era-game.scss"; // era 游戏信息卡片
+
+main p.article-meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+main hr {
+  margin: 3rem 0 1rem 0;
+}
+
+footer span {
+  pointer-events: none;
+  margin: 0 1rem;
+}

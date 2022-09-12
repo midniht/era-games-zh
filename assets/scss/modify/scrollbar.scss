@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+  height: 0.6rem;
+  width: 0.7rem;
+  background: transparent;
+  overflow: visible;
+  z-index: 12;
+}
+
+::-webkit-scrollbar-thumb {
+  margin: 0.2rem;
+  min-height: 32px;
+  min-width: 32px;
+  width: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0);
+  background-color: #aeaeb2;
+  background-clip: padding-box;
+  transition: background-color 0.32s ease-in-out;
+  z-index: 12;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c7c7cc;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
