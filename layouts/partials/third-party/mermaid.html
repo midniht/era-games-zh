@@ -1,0 +1,11 @@
+{{ if .Page.Store.Get "hasMermaid" }}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" defer></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({
+        startOnLoad: true,
+        fontFamily: '"Ubuntu+Mono", "Noto Sans SC", "trebuchet ms", verdana, arial, sans-serif;',  // 字体未加载成功
+      });
+    });
+  </script>
+{{ end }}
