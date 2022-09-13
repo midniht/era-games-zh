@@ -30,7 +30,8 @@ jobs:
         run: |
           sudo timedatectl set-timezone Asia/Shanghai
           hugo --minify
-          cat '{ "github": { "silent": true } }' > public/vercel.json
+          ls
+        # cat '{ "github": { "silent": true } }' > public/vercel.json
 
       - name: 4. Deploy
         uses: peaceiris/actions-gh-pages@v3
